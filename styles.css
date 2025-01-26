@@ -19,10 +19,15 @@
 
 body{
   background-color: var(--background-color);
+  
+}
+
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 header h1{
@@ -96,6 +101,10 @@ button:hover{
   background-color: #2a2e55;
 }
 
+main{
+  flex: 1;
+}
+
 /*first card starts here*/
 .first-card{
   display: flex;
@@ -107,9 +116,9 @@ button:hover{
   padding: 20px;
   background-color: #000;
   display: none;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.5);
-    animation: fromUp 1s cubic-bezier(0.25, 1, 0.5, 1);
+  animation: fromUp 1s cubic-bezier(0.25, 1, 0.5, 1);
   }
   
   @keyframes fromUp {
@@ -227,7 +236,7 @@ button:hover{
   padding: 20px 10px;
   font-family: 'Arial', sans-serif;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   
 }
 
