@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>The Domah's Forecast</title>
+</head>
+<body>
+  <!--Header starts here-->
+  <header>
+    <h1>The Domah's Forecast <i class="fa-solid fa-cloud"></i></h1>
+    <div class="searchBig-container">
+    <div class="search-container">
+      <i class="fa-solid input-icon fa-magnifying-glass"></i>
+      <input class="search-input" type="text" id="city-input" placeholder="Enter city name...">
+      <button id="search-btn">Search</button>
+    </div>
+      <div class="error1">
+      <p class="error">Invalid Country or City name</p>
+    </div>
+  </div>
+  </header>
+  
+  <!--Header section ends here-->
+
+
+
+<!--Main section starts here-->
+  <main>
+
+    <!--first section card starts here-->
+    <section class="first">
+      <div class="first-card">
+        <div class="left-side">
+          <div class="location-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="location">India</p>
+        </div>
+        <h3 class="day">10:24</h3>
+        <span class="date">26 Jan, 2025</span>
+          <h2 class="temp">22°c</h2>
+       
+          <div class="details">
+            <div class="col">
+          <img src="image/humidity.png" alt="">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+         </div>
+        </div>
+        <div class="right-side">
+          <div class="cloudsun">
+          <img src="image/rain.png" class="weather-image">
+        </div>
+          
+           <h4 class="describe">Cloudy</h4>
+          <span>feels like <span class="feeling"> 26</span></span>
+
+          <div class="details">
+            <div class="col">
+          <img src="image/wind.png" alt="">
+          <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+         </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--first section card ends here-->
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Domah's Forecast</h2>
+      <p>&copy; 2025 Lawrance Wagan Domah. All Rights Reserved.</p>
+      <p>Powered by CyberForge | Built by CoderBuilder</p>
+    </div>
+  </footer>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
